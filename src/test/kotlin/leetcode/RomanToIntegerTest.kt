@@ -11,7 +11,7 @@ internal class RomanToIntegerTest {
 
     @Test
     fun givenIII_Returns3() {
-        assertEquals(sut.romanToInt("III"), 3)
+        assertEquals( 3, sut.romanToInt("III"))
     }
 
     @Test
@@ -47,5 +47,10 @@ internal class RomanToIntegerTest {
     @Test
     fun givenVII_Returns7() {
         assertEquals(sut.romanToInt("VII"), 7)
+    }
+
+    @Test
+    fun givenIV_Returns4() {
+        assertEquals( 4, sut.romanToInt("IV"))
     }
 }
